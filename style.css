@@ -74,36 +74,13 @@ main{
 	.step-box:last-child{
 		margin-bottom: 0;
 	}
-	.step-img1{
-		height: 350px;
-	}
-	.step-img2{
-		height: 350px;
-	}
-	.step-img3{
+	.step-img1, .step-img2, .step-img3{
 		height: 350px;
 	}
 }
 
 @media screen and (max-width:425px){
-	main{
-		width: 90%;
-	}
-	.step-box{
-		width: 100%;
-		float: none;
-		margin-bottom: 20px;
-	}
-	.step-box:last-child{
-		margin-bottom: 0;
-	}
-	.step-img1{
-		height: 150px;
-	}
-	.step-img2{
-		height: 150px;
-	}
-	.step-img3{
+	.step-img1, .step-img2, .step-img3{
 		height: 150px;
 	}
 }
